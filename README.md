@@ -12,15 +12,15 @@ springboot 多数据源
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 修改 leoMoreMysql/src/main/resources/application.properties 中自己的数据源
+2. 修改 leoMoreMysql/src/main/resources/mappings/leo/modules/master/log/LogDao.xml 中自己的主数据库查询语句
+3. 修改 leoMoreMysql/src/main/resources/mappings/leo/modules/second/user/S6Dao.xml 中自己的第二数据库查询语句
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 简单
+2. 省略service接口
+3. 一目了然
 
 #### 参与贡献
 
