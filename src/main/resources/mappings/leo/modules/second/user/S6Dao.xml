@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.leo.moreMysql.modules.second.user.dao.UserTestDao">
+
+
+    <select id="getUserTestData" resultType="java.lang.String">
+        SELECT  code_name as ownerName
+        FROM com_code WHERE id = 'CC01A59577C059435FA6E38E0E2D3833EF'
+        limit 1
+    </select>
+</mapper>
