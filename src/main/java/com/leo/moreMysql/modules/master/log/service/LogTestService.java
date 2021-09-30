@@ -43,4 +43,11 @@ public class LogTestService {
 
         return  test;
     }
+
+    public String getList2(){
+        String t;
+        t = logTestDao.getmasterphone();
+        t += userTestDao.getsecondphone();
+        return t;
+    }
 }

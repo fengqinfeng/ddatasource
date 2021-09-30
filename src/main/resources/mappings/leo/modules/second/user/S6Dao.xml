@@ -4,8 +4,7 @@
 
 
     <select id="getUserTestData" resultType="java.lang.String">
-        SELECT  code_name as ownerName
-        FROM com_code WHERE id = 'CC01A59577C059435FA6E38E0E2D3833EF'
+        SELECT phone FROM ph2
         limit 1
     </select>
 </mapper>

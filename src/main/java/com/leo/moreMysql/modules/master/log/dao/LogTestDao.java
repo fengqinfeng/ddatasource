@@ -1,6 +1,8 @@
 package com.leo.moreMysql.modules.master.log.dao;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
+import org.springframework.stereotype.Service;
 
 
 /**
@@ -24,4 +26,7 @@ public interface LogTestDao {
      * @return
      */
     String getTestData();
+
+    @Select("select phone from ph1 limit 1")
+    String getmasterphone();
 }

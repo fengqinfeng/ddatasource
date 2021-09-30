@@ -32,7 +32,8 @@ public class LogTestController {
     @ResponseBody
     public String error() {
 //        responseBase.setResult(CodeMessage.PARAM_FAILED_EXPLAIN);
-        return logTestService.getList();
+//        return logTestService.getList();
+        return logTestService.getList2();
     }
 
 

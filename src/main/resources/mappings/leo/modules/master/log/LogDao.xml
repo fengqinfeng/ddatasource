@@ -3,7 +3,7 @@
 <mapper namespace="com.leo.moreMysql.modules.master.log.dao.LogTestDao">
 
     <select id="getTestData" resultType="java.lang.String">
-        SELECT phone_no FROM request_log
+        SELECT phone FROM ph1
         limit 1
     </select>
 </mapper>

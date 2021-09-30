@@ -1,6 +1,7 @@
 package com.leo.moreMysql.modules.second.user.dao;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
 
 
 /**
@@ -24,5 +25,8 @@ public interface UserTestDao {
      * @return
      */
     String getUserTestData();
+
+    @Select("select phone from ph2 limit 1")
+    String getsecondphone();
 
 }
